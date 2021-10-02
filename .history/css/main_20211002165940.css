@@ -1,0 +1,12 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+:root{
+    --clr
+}
+
+body {
+    height: 100vh;
+    background: grey;
+}

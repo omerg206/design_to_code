@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: #f70058;
+    --clr-dark: #0c0e36;
+    --clr-light: #fff;
+
+    --fw-normal: 400;
+    --fw-bold: 700;
+    --fw-dark: 900;
+    --grid: 1fr;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.125rem;
+    color: var(--clr-dark);
+}
+
+header {
+    background-color: var(--clr-light);
+    padding: 1em;
+    text-align: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: var(--fw-bold);
+    letter-spacing: 1px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: inherit;
+}

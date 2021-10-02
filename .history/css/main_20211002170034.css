@@ -1,0 +1,13 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-primary: #F70058;
+    --clir-dark: 
+}
+
+body {
+    height: 100vh;
+    background: grey;
+}

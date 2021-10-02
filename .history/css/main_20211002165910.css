@@ -1,0 +1,6 @@
+*,*::after,*::
+
+body {
+    height: 100vh;
+    background: grey;
+}
